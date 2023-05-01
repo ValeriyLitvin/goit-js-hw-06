@@ -1,9 +1,11 @@
-const descriptionEl = document.querySelectorAll('.item');
-console.log(`Number of categories: ${descriptionEl.length}`);
-descriptionEl.forEach(element => {
-  console.log(`Category: ${element.firstElementChild.textContent}`);
-  console.log(`Elements: ${element.lastElementChild.children.length}`);
+const categoryItem = document.querySelectorAll('.item');
+console.log(`Number of categories: ${categoryItem.length}`);
+
+categoryItem.forEach(function (caregore) {
+  console.log(`Category: ${caregore.firstElementChild.textContent}`);
+  console.log(`Category: ${caregore.lastElementChild.children.length}`);
 });
+
 /*
 
 Напиши скрипт, який:
@@ -28,3 +30,39 @@ Category: Technologies
 Elements: 5
 
 */
+// * /
+//     * /
+//     * /
+//     * /
+//     * /
+// */
+// */
+
+// */
+
+// * /
+//     * /
+//     * /
+//     * /
+//     * /
+// */
+// */
+
+// */
+
+// * /
+//     * /
+//     * /
+//     * /
+//     * /
+// */
+// */
+
+// */
+
+// const descriptionEl = document.querySelectorAll('.item');
+// console.log(`Number of categories: ${descriptionEl.length}`);
+// descriptionEl.forEach(element => {
+//   console.log(`Category: ${element.firstElementChild.textContent}`);
+//   console.log(`Elements: ${element.lastElementChild.children.length}`);
+// });
